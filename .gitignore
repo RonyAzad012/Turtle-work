@@ -2,23 +2,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
 
 # Virtual Environment
 venv/
@@ -31,7 +14,11 @@ ENV/
 .vscode/
 *.swp
 *.swo
+
+# System files
 .DS_Store
+Thumbs.db
 
 # Project specific
-*.log 
+*.log
+*.png  # In case you save turtle drawings as images
